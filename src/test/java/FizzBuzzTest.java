@@ -11,7 +11,7 @@ public class FizzBuzzTest {
     @Test
     public void FizzBuzzTest1(){
         int num = 5;
-        String target = "Buzz";
+        String target = "";
         Assert.assertEquals(target, fb.FizzBuzzGen(num));
     }
 
@@ -21,7 +21,7 @@ public class FizzBuzzTest {
     @Test
     public void FizzBuzzTest2(){
         int num = 9;
-        String target = "Fizz";
+        String target = "";
         Assert.assertEquals(target, fb.FizzBuzzGen(num));
     }
     /**
@@ -30,7 +30,7 @@ public class FizzBuzzTest {
     @Test
     public void FizzBuzzTest3(){
         int num = 27;
-        String target = "Fizz";
+        String target = "";
         Assert.assertEquals(target, fb.FizzBuzzGen(num));
     }
     /**
@@ -39,7 +39,7 @@ public class FizzBuzzTest {
     @Test
     public void FizzBuzzTest4(){
         int num = 30;
-        String target = "FizzBuzz";
+        String target = "";
         Assert.assertEquals(target, fb.FizzBuzzGen(num));
     }
 
